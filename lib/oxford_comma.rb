@@ -17,7 +17,8 @@ first_part_of_sentence = "This book is dedicated to"
 
 array = string.split(first_part_of_sentence)
 puts array.inspect
-#
+#["", " Jack, Ryan and Amy."] empty element and the rest of the string\
+
 second_part_of_sentence = array[1]
 puts second_part_of_sentence.inspect
 

@@ -27,6 +27,8 @@ puts second_part_of_sentence.inspect
 
 names = second_part_of_sentence.split(',')
 puts names.inspect
+#[" Jack", " Ryan and Amy."]
+
 
 first_name = names[0]
 rest_of_names = names[1]

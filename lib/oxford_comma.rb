@@ -1,8 +1,8 @@
-#array = ["fiddleheads","okra","kohlrabi"]
+array = ["fiddleheads","okra","kohlrabi"]
 
 
 def oxford_comma(array)
-  arry.insert(-2, " and ")
+  array.insert(-2, " and ")
 end
 
 

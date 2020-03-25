@@ -19,8 +19,11 @@ array = string.split(first_part_of_sentence)
 puts array.inspect
 #["", " Jack, Ryan and Amy."] empty element and the rest of the string\
 
-second_part_of_sentence = array[1]
+second_part_of_sentence = array[1] # " Jack, Ryan and Amy."
 puts second_part_of_sentence.inspect
+#" Jack, Ryan and Amy."
+
+
 
 names = second_part_of_sentence.split(',')
 puts names.inspect

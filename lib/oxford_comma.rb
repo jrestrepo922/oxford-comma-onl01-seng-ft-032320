@@ -2,10 +2,9 @@
 
 
 def oxford_comma(array)
-  new_string = array.join(", ")
-  new_string.insert(19, "and ")
+  arry.insert(-2, " and ")
 end
 
 
 
-#puts oxford_comma(array)
+puts oxford_comma(array)

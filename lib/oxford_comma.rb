@@ -36,6 +36,7 @@ rest_of_names = names[1]
 remaining_names = rest_of_names.split("and")
 second_name = remaining_names[0]
 third_name = remaining_names[1]
+puts remaining_names
 
 final_string = first_part_of_sentence + first_name + "," + second_name + "," + " and " + third_name;
 

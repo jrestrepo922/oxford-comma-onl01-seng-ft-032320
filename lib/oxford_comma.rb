@@ -17,7 +17,7 @@ first_part_of_sentence = "This book is dedicated to"
 
 array = string.split(first_part_of_sentence)
 puts array.inspect
-
+#
 second_part_of_sentence = array[1]
 puts second_part_of_sentence.inspect
 
@@ -34,3 +34,7 @@ third_name = remaining_names[1]
 final_string = first_part_of_sentence + first_name + "," + second_name + "," + " and " + third_name;
 
 puts final_string
+
+
+
+
